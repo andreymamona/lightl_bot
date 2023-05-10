@@ -12,7 +12,7 @@ async def send_message(chat_id: int, text: str) -> None:
 
 
 if __name__ == "__main__":
-    chat_id = input("Enter chat ID: ")
+    chat_id = "380222004"  #input("Enter chat ID: ")
     text = input("Your message: ")
     asyncio.run(send_message(chat_id=chat_id, text=text))
 
